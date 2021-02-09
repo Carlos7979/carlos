@@ -1,0 +1,16 @@
+
+✓ Botón de reinicio de los ejercicios sin recargar página
+    Implementado temporalmente dando click sobre el encabezado con el título "Suma Algebraica"
+✓ Al presionar enter que admita la evaluación del input activo
+✓ Generador de 8 ejercicios tipo con la siguiente estructura:
+    + +
+    - -
+    +↑ -
+    +↓ -
+    -↑ +
+    -↓ +
+    + = -
+    - = +
+
+Conteo del puntaje de los ejercicios
+Evalúar el conjunto con un sólo clickcicios 

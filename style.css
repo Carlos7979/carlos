@@ -1,0 +1,90 @@
+* {
+    border: darkgrey 1px groove;
+}
+
+html, body, .exercises {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#header {
+    background-color: gold;
+    padding: 1rem;
+    margin: 5px;
+    font-size: large;
+    font-weight: 700;
+    width: 25rem;
+    text-align: center;
+}
+
+#header:hover {
+    cursor: pointer;
+}
+
+#header:active {
+    margin-left: 7px;
+    background-color: goldenrod;
+}
+
+.exercise {
+    background-color: rgb(96, 127, 221);
+    padding: 3px 5px 11px;
+    width: 27rem;
+    border-radius: 5px;
+}
+.number, .sing, .eval, .result {
+    width: 2rem;
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+    border: none;
+    font-weight: 600;
+}
+
+.sing {
+    width: 1rem;
+}
+
+.result {
+    min-width: 4rem;
+    /* margin-right: 2rem; */
+}
+
+.result-in {
+    max-width: 4rem;
+    letter-spacing: 5px;
+    font-size: medium;
+    min-width: 2rem;
+    text-align: center;
+    background-color: lightsteelblue;
+    font-weight: 600;
+}
+
+.eval {
+    margin-left: 0.5rem;
+}
+
+img {
+    border: none;
+}
+
+.eval-but {
+    background-color: sandybrown;
+    border: black 1px solid;
+    border-radius: 5px;
+    color: black;
+    cursor: default;
+    cursor: pointer;
+}
+
+.message {
+    width: 6rem;
+    display: inline-block;
+    /* text-align: center; */
+    border: none;
+}
