@@ -1,0 +1,191 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+  	vertical-align: baseline;
+     /* border: 1px dashed gainsboro;  */
+}
+
+ol {
+  list-style-type: decimal; 
+  list-style-position: inside;
+  padding: 0 2%;
+}
+
+li {
+    margin: 1.15em 0;
+    line-height: 1.25;
+}
+
+.non-decoration {
+  text-decoration: none; 
+}
+
+#banner {
+    height: 30%;
+    background: #2F5597;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 25px;
+}
+
+#logo-background {
+    margin: 1% 2%;
+    height: 80%;
+    width: 27%;
+    background: white;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-left: 5%;
+}
+
+.name {
+   margin-bottom: 5px;
+}
+
+.subtitle-banner {
+   font-size: x-large;
+}
+
+#right-banner {
+    max-width: 50%;
+    text-align: right;
+    margin-right: 3%;
+    color: white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+
+}
+
+#text-pi {
+    margin-top: -5%;
+    font-weight: 700;
+    width: 100%;
+}
+
+#logo-pi {
+    margin-top: -5%;
+    width: 50%;
+}
+#logo-pi-2 {
+    margin-top: -5.1%;
+    width: 51.5%;
+}
+
+#language {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 0%;
+	  left: 0%;
+    margin: 1% 0 0 97%;
+    padding-top: 3px;
+    border-radius: 100%;
+    border: solid 1px #B2B2B2;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #B2B2B2;
+    cursor: default;
+    cursor: pointer;
+    display: none;
+}
+
+#language:hover {
+    background: rgba(209, 198, 198, 0.1);
+}
+
+#language:active {
+    color: #D3D7CF;
+    background: rgba(209, 198, 198, 0.2);
+    top: 1px;
+  }
+
+#main-title {
+    text-align: right;
+    color: #2F5597;
+    padding: 1% 2%;
+    font-family: 'Montserrat', 'Lato', 'Roboto', Verdana, sans-serif;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-right: 1%;
+}
+
+#main-subtitle {
+    text-align: right;
+    color: #2F5597;
+    padding: 0% 2%;
+    font-family: 'Montserrat', 'Lato', 'Roboto', Verdana, sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-right: 1%;
+}
+
+.main-content {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#block-02 {
+    padding-right: 20%;
+}
+
+#face-worried {
+    height: 50px;
+}
+
+#notes:hover {
+    background-image: url("./images/face-worried.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 2%;    
+}
+
+#notes {
+    padding-right: 10%;
+}
+
+.title-2 {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#rigth-title-2 {
+    padding-bottom: 1.24em;
+}
+
+.block-content {
+    border: #2F5597 solid 2px;
+    text-align: justify;
+    margin: 0 0.5%;
+}
+
+.stand-out {
+    font-weight: 700;
+}
+
+#boundary {
+  min-height: 50px;
+}
+
+
